@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chatbot</title>
+  </head>
+  <body class="darkmode" id="body">
+    <div class="top">
+      <div class="header">
+        <div class="topheader">
+          <h1><big>C</big>odebot</h1>
+        </div>
+      </div>
+      <!--Navigation Bar-->
+      <nav>
+        <div class="nav-container">
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a
+                class="nav-link active"
+                href="#"
+                onclick="openpage(event, 'home')"
+                id="defaultPageOpen"
+                >Home</a
+              >
+            </li>
+            <li class="nav-link">
+              <a class="nav-link" onclick="openpage(event, 'new')" href="#"
+                >New</a
+              >
+            </li>
+            <li class="nav-link">
+              <a class="nav-link" onclick="openpage(event, 'explore')" href="#"
+                >Explore</a
+              >
+            </li>
+            <li class="nav-link">
+              <a class="nav-link" onclick="openpage(event, 'about')" href="#"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--Home page-->
+    <div class="bot-container pages" id="home">
+      <div id="chat-container"></div>
+      <div id="input-container">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your question here..."
+          autocomplete="off"
+        />
+        <button id="send-button"><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <div class="bot-container pages" style="display: none" id="new">
+      <h1 style="text-align: center">New Section</h1>
+      <br />
+      <span>There is nothing new.</span>
+    </div>
+    <!--Explore section-->
+    <div class="bot-container pages" style="display: none" id="explore">
+      <h1 style="text-align: center">Explore Section</h1>
+      <br />
+      <span
+        >Artificial Intelligence (AI) chatbots have garnered significant
+        attention in recent years due to their ability to automate communication
+        processes and provide scalable solutions for customer interaction, data
+        handling, and personalized service delivery. A vast body of literature
+        has emerged focusing on various aspects of chatbot technology, including
+        natural language processing (NLP), machine learning, human-computer
+        interaction, and the ethical considerations surrounding their use.<br /><br />
+        This literature review synthesizes research findings in these key areas,
+        offering an overview of the current state of AI chatbot development,
+        applications, and challenges.</span
+      >
+      <br /><br /><span
+        >Artificial Intelligence (AI) chatbots have emerged as powerful tools
+        that simulate human conversation through text or voice interactions.
+        These systems leverage advanced Natural Language Processing (NLP)
+        algorithms, machine learning, and deep learning techniques to
+        understand, interpret, and respond to user queries in a contextually
+        appropriate manner. AI chatbots are widely utilized across various
+        industries, including customer service, healthcare, finance, and
+        e-commerce, where they automate routine tasks, enhance user engagement,
+        and provide 24/7 support. <br /><br />The effectiveness of AI chatbots
+        lies in their ability to learn from interactions, adapt to diverse
+        communication styles, and continuously improve over time. Modern AI
+        chatbots are capable of handling complex tasks such as booking
+        appointments, providing product recommendations, and assisting with
+        troubleshooting, all while maintaining conversational coherence. Despite
+        their advancements, challenges remain in terms of achieving perfect
+        understanding, addressing nuanced or ambiguous queries, and mitigating
+        biases in training data.
+      </span>
+    </div>
+    <!--About section-->
+    <div class="bot-container pages" style="display: none" id="about">
+      <h1 style="text-align: center">About Section</h1>
+      <br />
+      <span
+        >Codebot is an online platform to solve the basic queries of the
+        Engineering students.</span
+      >
+    </div>
+    <!--Main body ends here-->
+    <script src="script.js"></script>
+  </body>
+</html>
