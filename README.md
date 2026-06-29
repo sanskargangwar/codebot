@@ -6,24 +6,23 @@ CodeBot is a simple AI-powered chatbot built using **HTML**, **CSS**, and **Java
 
 ## 🚀 Features
 
-- 💬 Interactive Chat Interface
-- 🤖 AI-Powered Responses
-- ⚡ Fast and Lightweight
-- 📱 Responsive Design
-- 🎨 Modern User Interface
-- ⌨️ Real-Time User Input
-- 📝 Chat History Display
+-  Interactive Chat Interface
+-  AI-Powered Responses
+-  Fast and Lightweight
+-  Responsive Design
+-  Modern User Interface
+-  Real-Time User Input
+-  Chat History Display
 
 ---
 
-## 🌟 Future Improvements
+##  Future Improvements
 
-- 🌙 Dark Mode
-- 🎤 Voice Input
-- 🔊 Text-to-Speech
-- 📂 Chat History Storage
-- 📄 Export Chat as PDF
-- 😊 Emoji Support
+- Dark Mode
+- Voice Input
+- Text-to-Speech
+- Export Chat as PDF
+- Emoji Support
 
 ---
 
